@@ -14,7 +14,9 @@ This is a gallery of basic example notebooks about beam dynamics. The library us
 
 [PyHEADTAIL][pyheadtail] is used at CERN and other labs to study a wide range of collective effects in circular accelerators. It models beam interactions with wake fields and impedances, electron clouds, self-consistent space charge or realistic feedback systems, for instance. In particular, at CERN we use [PyHEADTAIL][pyheadtail] to study instabilities in all of the CERN synchrotrons in order to understand performance limiting mechanisms and to devise adequate mitigation schemes.
 
-[<img class="open_in_swan" data-path="beams_dynamics" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url]
+<script src="../script.js"></script>
+<link rel="stylesheet" href="../styles.css">
+<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" onclick ="openInSWAN(beam_dynamics)">
 
 * [Quick Start Tutorial](beams_dynamics/Tutorial.ipynb)
 * [Transverse Space Charge Tutorial](beams_dynamics/simulation_notebooks/SpaceChargeTutorial.ipynb)

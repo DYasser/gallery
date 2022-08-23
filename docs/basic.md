@@ -6,7 +6,9 @@ template: full_width_with_menu.html
 
 This is a gallery of basic example notebooks: click on the images to inspect the underlying document, open in SWAN the single notebooks or the full git repository!
 
-[<img class="open_in_swan" data-path="basic" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url]
+<script src="../script.js"></script>
+<link rel="stylesheet" href="../styles.css">
+<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" onclick ="openInSWAN(basic)">
 
 Many of the notebooks are ROOTbooks, based on the ROOT framework. To know more about ROOT, visit [root.cern.ch](http://root.cern.ch/).
 

@@ -8,7 +8,9 @@ template: full_width_with_menu.html
 
 These notebooks exemplify the usage of SWAN and Spark for analytics and machine learning use cases at CERN.
 
-[<img class="open_in_swan" data-path="apache_spark1" data-name="SWAN: Spark connector and monitor" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url1]
+<script src="../script.js"></script>
+<link rel="stylesheet" href="../styles.css">
+<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" onclick ="openInSWAN(swan_spark)">
 
 * [Analyzing monitoring data](apache_spark1/analytix-hostmetrics-example.ipynb)
 * [Analyzing LHC logging data](apache_spark1/NXCals-example.ipynb)
@@ -21,7 +23,7 @@ These notebooks exemplify the usage of SWAN and Spark for analytics and machine 
 
 This notebook illustrates a nice interplay between LHCb Opendata, Spark and ROOT - all teaching interesting flavour Physics!
 
-[<img class="open_in_swan" data-path="basic" data-name="Basic Examples (including LHCb Opendata)" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url2]
+<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" onclick ="openInSWAN(lhcb_opendata)">
 
 * [An example using LHCb open data](basic/notebooks/LHCb_OpenData_Spark.ipynb)
 
@@ -29,7 +31,7 @@ This notebook illustrates a nice interplay between LHCb Opendata, Spark and ROOT
 
 This gallery shows examples of usage of [Apache Spark][spark] within SWAN. The full tutorial given at CERN by Prasanth Kothuri and Kasper Surdy can be found on [Indico][event].
 
-[<img class="open_in_swan" data-path="apache_spark2" data-name="Spark course/Hadoop tutorials" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url3]
+<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" onclick ="openInSWAN(spark_course)">
 
 * [Preparation](apache_spark2/3_spark/Preparation.ipynb)
 * [Data Frame Tutorial](apache_spark2/3_spark/Tutorial_DataFrame_Final.ipynb)

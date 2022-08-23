@@ -4,9 +4,12 @@ template: full_width_with_menu.html
 
 # Accelerator Complex
 
+<script src="../script.js"></script>
+<link rel="stylesheet" href="../styles.css">
+
 This gallery shows examples of machine studies relative to the CERN accelerators' complex.
 
-[<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url]
+<img class="open_in_swan" data-path="accelerator_complex" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" onclick ="openInSWAN(accelerator_complex)">
 
 * [LHC Page1](accelerator_complex/examples/LHC_Page1.ipynb)
 * [Experiments' Luminosities](accelerator_complex/examples/LHC_Luminosities.ipynb)
