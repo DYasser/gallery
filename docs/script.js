@@ -9,7 +9,7 @@ const awake = "https://github.com/prasanthkothuri/awake-notebooks.git";
 
 function openInSWAN(url){
     if ( window.location !== window.parent.location ) 
-        window.parent.postMessage(url, 'http://localhost:8888');
+        window.parent.postMessage(url, 'https://swan-qa001.cern.ch');
     else
         window.open("https://cern.ch/swanserver/cgi-bin/go/?projurl="+url);
     }
