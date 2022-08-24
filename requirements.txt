@@ -1,2 +1,2 @@
-dist_swan/mkdocs_swan-0.1.0-py3-none-any.whl
+./dist_swan/mkdocs_swan-0.1.0-py3-none-any.whl
 mkdocs-swangallery
